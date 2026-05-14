@@ -1,4 +1,4 @@
-FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大神无私分享，如有侵权，请联系删除。
+OK影视、TVBox、猫影视配置文件。所有资源均来自于各路大神无私分享，如有侵权，请联系删除。
 
 所有以任何方式查看本仓库内容的人、或直接或间接使用本仓库内容的使用者都应仔细阅读此声明。本仓库管理者保留随时更改或补充此免责声明的权利。一旦使用、复制、修改了本仓库内容，则视为您已接受此免责声明。
 
@@ -10,7 +10,7 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 1. tvbox配置：
 
-（1）0707.json  Fengmi影视多线配置接口,仅适用于Fengmi影视；
+（1）0707.json  OK影视多线配置接口,仅适用于Fengmi影视；
 
 （2）0821.json  大而全的配置，在饭太硬配置的基础上添加了若干优质点播源、直播线路和解析；
 
@@ -32,17 +32,32 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （11）cat.json  cat源，资源来源于网络各路大佬。/cat/js配合猫影视可直接食用；
 
-（12） jsm.json 来自js.json + 0826.json 合集 家庭电视可用 删除YouTube 直播。
-
-（13）电视安卓版本低于4.4以下下载apk：<https://github.com/o0HalfLife0o/TVBoxOSC/releases/download/20230902-0114/TVBox_q215613905_20230902-0114.apk>
+（12） jsm.json 来自js.json + 0826.json 合集 家庭电视可用 删除YouTube 直播，OK影视 可用 电视建议使用OK影视 https://github.com/FongMi/Release 支持多直播选择。
+ 
 
 猫影视使用github 配置
 
  配置教程：<https://omii.top/1296.html>
 
+`注意使用Gitee或Github导入，并设置为私有仓库，CatVodOpen仅支持私有仓库跟dav`
+
+V1.1.3版本以上
+
+`github://Token@github.com/xxxxx/tvbox/dist/index.js.md5`
+
+改动
+
+* quickjs改为nodejs，proxy设置修改
+* 在ios上无法使用local，使用db替换local所有方法
+* nodejs 的优势在于更加灵活
+
+V1.1.2版本以下
+
+`github://Token@gitee.com/xxxxx/tvbox/js/open_config.json`
+
 1. APP推荐:
 
-（1）FongMi版本  项目地址：<https://github.com/FongMi/TV> 支持直播多线路、自动换源、直播倍速，手机投屏；
+（1）OK影视版本  项目地址：<https://github.com/FongMi/TV> 支持直播多线路、自动换源、直播倍速，手机投屏；
 
 （2）q215613905版本  项目地址：<https://github.com/q215613905/TVBoxOS> 支持直播回放；
 
@@ -58,84 +73,57 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 3. TVBox各路大佬配置（排名不分先后）：
 
-（1）唐三：<https://gh.t4tv.hz.cz/newtang.bmp>
+（1）饭太硬：http://www.饭太硬.top/tv/
 
-（2）Fongmi：<https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/fongmi/main/json/config.json>
+（2）okjack：https://jihulab.com/okcaptain/kko/raw/main/ok.txt
 
-（3）俊于：<http://home.jundie.top:81/top98.json>
+（3）王二小放牛娃：http://tvbox.王二小放牛娃.xyz
 
-（4）饭太硬：<http://饭太硬.top/tv>
+（4）摸鱼儿：http://我不是.摸鱼儿.top
 
-（5）肥猫：<http://我不是.肥猫.love:63/接口禁止贩卖>
+（5）霜辉月明py：https://raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json
 
-（6）霜辉月明py：<https://mirror.ghproxy.com/raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json>
+（6）小米小爆脾气：http://xhww.fun/小米/DEMO.json
 
-（7）小米小爆脾气：<http://xhww.fun:63/小米/DEMO.json>
+（7）南风：https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json
 
-（8）小雅：<http://drpy.site/js1>
+（8）神器：https://神器每日推送.tk/pz.json
 
-（9）菜妮丝：<https://tvbox.cainisi.cf>
+（9）巧技：http://pandown.pro/tvbox/tvbox.json
 
-（10）运输车：<https://github.moeyy.xyz/https://raw.githubusercontent.com/52670576/tvbox/main/ysc.json>
+（10）Ray：https://100km.top/0
 
-（11）多多：<https://yydsys.top/duo>
+（11）俊于：http://home.jundie.top:81/top98.json
 
-（12）南风：<https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json>
+（12）橘子柚：https://raw.githubusercontent.com/hackyjso/box/main/jzy.txt
 
-（13）神器：<https://神器每日推送.tk/pz.json>
+（13）电视（自用）： <https://raw.githubusercontent.com/qist/tvbox/master/jsm.json>
 
-（14）巧技：<http://pandown.pro/tvbox/tvbox.json>
+（14）github代理地址： `https://github.moeyy.xyz https://mirror.ghproxy.com/ https://gh-proxy.com https://ghproxy.net` 选择一个速度快使用
 
-（15）那里花开：<http://hz752.love:63/tk.json>
+（15） 还可以使用域名: `https://qist.wyfc.qzz.io/jsm.json` cloudflare Pages 构建
+ 
+（16） 添加潇洒 接口： https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json 或者 https://qist.wyfc.qzz.io/xiaosa/api.json
+ 
+（17）添加饭太硬 接口 https://raw.githubusercontent.com/qist/tvbox/master/fty.json 或者 https://qist.wyfc.qzz.io/fty.json
 
-（16）吾爱有三：<http://52bsj.vip:98/0805>
+2. 网盘授权配置：
+选择 《 配置 | 中心 》进行配置
+特别警告：据传阿里要求使用者不得使用多线程加速方式使用阿里云盘资源，若并发连接数超过10有可能导致被限制访问或封禁帐号的处理，所以下方线程限制设置超过10所需承担的风险请使用者自行斟酌。
 
-（17）潇洒：<https://download.kstore.space/download/2863/01.txt>
+特别警告2：迅雷云盘限制极为严格，不要尝试单token多用户异地使用，或多线程使用，随时可能封号。
 
-（18）佰欣园：<https://mirror.ghproxy.com/https://raw.githubusercontent.com/chengxueli818913/maoTV/main/44.txt>
+可以透过配置中的“网盘及弹幕配置”的视频源来实现快捷方便的获取32位token及opentoken的功能。在“网盘及弹幕配置”中扫过任何一个OpenToken后，会自动激活“转存原画”功能
 
-（19）胖虎：<https://notabug.org/imbig66/tv-spider-man/raw/master/配置/0801.json>
+提示：如果遇到极速GO原画反复快速报错，不一定是被封号，可尝试杀掉播放器重启，或重启整个播放设备解决。
 
-（20）云星日记：<http://itvbox.cc/tvbox/云星日记/1.m3u8>
+提示2：如果遇到“转存原画”速度被限制在2M左右，那麽请尝试在阿里云盘APP里退出登录，然后重新登录，然后删除播放设备SD卡的TV目
 
-（21）Yoursmile7：<https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json>
-
-（22）Ray：<https://mirror.ghproxy.com/https://raw.githubusercontent.com/dxawi/0/main/0.json>
-
-（23）甜蜜：<https://kebedd69.github.io/TVbox-interface/py甜蜜.json>
-
-（24）月光宝盒：<https://jihulab.com/ygbh1/box/-/raw/main/月光宝盒>
-
-（25）好人：<https://xhdwc.tk/0>
-
-（26）电视（自用）： <https://github.moeyy.xyz/raw.githubusercontent.com/qist/tvbox/master/jsm.json>
-
-（27）github代理地址： `https://github.moeyy.xyz https://mirror.ghproxy.com/ https://gh-proxy.com https://ghproxy.net` 选择一个速度快使用
-
-4. 随机轮换壁纸：
-
-（1）<https://bing.img.run/rand.php>
-
-（2）<http://www.kf666888.cn/api/tvbox/img>
-
-（3）<https://picsum.photos/1280/720/?blur=10>
-
-（4）<http://刚刚.live/图>
-
-（5）<http://饭.eu.org/深色壁纸/api.php>,
-
-（6）<https://www.dmoe.cc/random.php>
-
-（7）<https://api.btstu.cn/sjbz/zsy.php>
-
-（8）<https://api.btstu.cn/sjbz/?lx=dongman>
-
-（9）<http://api.btstu.cn/sjbz/?lx=meizi>
-
-（10）<http://api.btstu.cn/sjbz/?lx=suiji>
-
-（11）<https://pictures.catvod.eu.org/>
 
 自用仓库，如果喜欢，请Fork自用，谢谢！
 
 尽自己所能更新，不保证配置的有效性和时效性。
+
+### Star
+
+[![Star History Chart](https://api.star-history.com/svg?repos=qist/tvbox&type=Date)](https://www.star-history.com/#qist/tvbox&Date)
